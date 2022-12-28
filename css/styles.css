@@ -1,0 +1,215 @@
+:root {
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --hero-text-color: #ffffff;
+  --footer-text-color: #e7e9fc;
+  --accent-color: #4d5ae5;
+  --primary-text-font-size: 16px;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* header */
+
+.header-logo-web {
+  color: var(--accent-color);
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 33;
+  letter-spacing: 3%;
+}
+
+.header-logo-studio {
+  color: var(--primary-text-color);
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 33;
+  letter-spacing: 3%;
+}
+
+.menu-link {
+  color: var(--primary-text-color);
+  font-weight: 600;
+  font-size: var(--primary-text-font-size);
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-mail {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: var(--primary-text-font-size);
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--accent-color);
+}
+
+.contact-phone-number {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: var(--primary-text-font-size);
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+
+.hero {
+  background-color: var(--primary-text-color);
+}
+
+.hero-title {
+  color: var(--hero-text-color);
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1, 07;
+  letter-spacing: 2%;
+}
+
+.modal-btn {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+  font-weight: 500;
+  font-family: var(--primary-font);
+  font-size: var(--primary-text-font-size);
+  line-height: 1, 5;
+  letter-spacing: 4%;
+}
+
+/*  goals and Benefits */
+/* our team */
+/* portfolio work */
+
+.goals-and-benefits-title,
+.name-team,
+.portfolio-industry {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-family: var(--primary-font);
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 2%;
+}
+
+.goals-and-benefits-item,
+.job-title,
+.portfolio-service {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+
+/* what are we doing */
+/* our team */
+
+.what-are-we-doing,
+.our-team {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-family: var(--primary-font);
+  font-size: 36px;
+  line-height: 1, 11;
+  letter-spacing: 2%;
+}
+
+/* our team */
+
+.our-team-background {
+  background-color: #f4f4fd;
+}
+
+.foto-background {
+  background-color: var(--hero-text-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--primary-text-color);
+}
+
+.footer-logo-web {
+  color: var(--accent-color);
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 17;
+  letter-spacing: 3%;
+}
+
+.footer-logo-studio {
+  color: #f4f4fd;
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 17;
+  letter-spacing: 3%;
+}
+
+.call-to-action {
+  color: var(--footer-text-color);
+  font-weight: 400;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+
+/* portfolio button */
+
+.filter-btn-active {
+  color: var(--hero-text-color);
+  background-color: #404bbf;
+  font-weight: 500;
+  font-family: var(--primary-font);
+  font-size: var(--primary-text-font-size);
+  line-height: 1, 5;
+  letter-spacing: 4%;
+}
+
+.filter-btn-active:hover,
+.filter-btn-active:focus {
+  color: #404bbf;
+  background-color: var(--hero-text-color);
+}
+
+.filter-btn {
+  color: var(--accent-color);
+  background-color: var(--hero-text-color);
+  font-weight: 500;
+  font-family: var(--primary-font);
+  font-size: var(--primary-text-font-size);
+  line-height: 1, 5;
+  letter-spacing: 4%;
+}
