@@ -57,11 +57,14 @@ body {
 
 /* header */
 
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .page-header-container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .page-nav {
@@ -78,8 +81,8 @@ body {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 33;
-  letter-spacing: 3%;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
 }
 
 .header-logo-studio {
@@ -87,8 +90,8 @@ body {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 33;
-  letter-spacing: 3%;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
 }
 
 .menu-item:not(:last-child) {
@@ -99,8 +102,8 @@ body {
   color: var(--primary-text-color);
   font-weight: 600;
   font-size: var(--primary-text-font-size);
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .menu-link:hover,
@@ -113,16 +116,22 @@ body {
   margin-left: auto;
 }
 
-.contact-item {
+.contact-mail,
+.contact-phone-number {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: var(--primary-text-font-size);
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.contact-item:hover,
-.contact-item:focus {
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--accent-color);
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
   color: var(--accent-color);
 }
 
@@ -135,16 +144,18 @@ body {
 .hero {
   background-color: var(--primary-text-color);
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
   color: var(--hero-text-color);
   font-weight: 600;
   font-size: 56px;
-  line-height: 1, 07;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   width: 496px;
-  margin: 188px auto 0;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
 
@@ -154,12 +165,11 @@ body {
   font-weight: 500;
   font-family: var(--primary-font);
   font-size: var(--primary-text-font-size);
-  line-height: 1, 5;
-  letter-spacing: 4%;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   padding: 16px 32px;
   border-radius: 4px;
   min-width: 170px;
-  margin: 0 auto 188px;
 }
 
 /* goals and Benefits */
@@ -203,8 +213,8 @@ body {
   font-weight: 500;
   font-family: var(--primary-font);
   font-size: 20px;
-  line-height: 1, 2;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 
@@ -215,8 +225,8 @@ body {
   font-weight: 400;
   font-family: var(--primary-font);
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* what are we doing */
@@ -228,8 +238,8 @@ body {
   font-weight: 700;
   font-family: var(--primary-font);
   font-size: 36px;
-  line-height: 1, 11;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 72px;
 }
@@ -286,12 +296,13 @@ body {
   font-weight: 500;
   font-family: var(--primary-font);
   font-size: var(--primary-text-font-size);
-  line-height: 1, 5;
-  letter-spacing: 4%;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 24px;
   padding-right: 24px;
+  border: none;
 }
 
 .filter-btn-active:hover,
@@ -302,16 +313,21 @@ body {
 
 .filter-btn {
   color: var(--accent-color);
-  background-color: var(--hero-text-color);
+  background-color: #f4f4fd;
   font-weight: 500;
   font-family: var(--primary-font);
   font-size: var(--primary-text-font-size);
-  line-height: 1, 5;
-  letter-spacing: 4%;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 24px;
   padding-right: 24px;
+  border: none;
+}
+
+.images {
+  border: 1px solid #e7e9fc;
 }
 
 .explanation-for-cards-portfolio {
@@ -333,8 +349,8 @@ body {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .footer-logo-studio {
@@ -342,8 +358,8 @@ body {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .call-to-action {
@@ -351,8 +367,8 @@ body {
   font-weight: 400;
   font-family: var(--primary-font);
   font-size: var(--primary-text-font-size);
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   width: 264px;
   margin-top: 16px;
 }
